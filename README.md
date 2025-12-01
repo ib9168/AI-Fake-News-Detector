@@ -8,7 +8,9 @@ The project combines **NLP**, **Machine Learning**, and **Full-Stack Web Develop
 ### ⚡️Localhost Access
 ---
   Once the application is running locally, you can access the services here:
+  
   Frontend (User Interface): http://localhost:5173
+  
   Backend (API Status): http://localhost:5000/health
 
 ### 🚀 Features
@@ -57,7 +59,10 @@ AI-Fake-News-Detector/
   ### 🔮 Future Roadmap
 ---
   **Multi-Modal Detection:** Analyse news URLs/Links, Images, and Uploaded Documents for   authenticity.
+  
   **Explainable AI (XAI):** Add an interpretability layer (SHAP/LIME) to highlight why specific text was flagged as fake.
+  
   **User Feedback Loop:** Allow users to flag incorrect predictions to retrain the model.
+  
   **Deployment:** Containerization via Docker and cloud hosting on AWS or Heroku.
 
