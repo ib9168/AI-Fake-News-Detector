@@ -5,25 +5,28 @@ An AI-powered web application that classifies news articles as **FAKE** or **REA
 The project combines **NLP**, **Machine Learning**, and **Full-Stack Web Development** to build a transparent, explainable fake news detection system.
 
 ---
+###⚡️Localhost Access
+---
+  Once the application is running locally, you can access the services here:
+  Frontend (User Interface): http://localhost:5173
+  Backend (API Status): http://localhost:5000/health
 
 ### 🚀 Features
-- Fine-tuned **BERT (bert-base-uncased)** for binary text classification  
-- **Flask REST API** backend serving real-time predictions  
-- **Softmax confidence scoring** for interpretability  
-- **JSON-based API endpoint** `/predict` for text input and prediction results  
-- Pre-processing pipeline using **BertTokenizer** (tokenization, truncation, padding)  
-- Model and tokenizer **saved and versioned** for reproducibility (`saved_model/`)  
-- Planned **React.js frontend** integration for user-friendly interface  
-- Future deployment through **Docker** + **AWS/Heroku**
+-**Fine-tuned BERT Model:** Uses bert-base-uncased for accurate binary text classification.
+-**Interactive Frontend:** React.js interface allows users to paste articles and view results instantly.
+-**Real-time Analysis:** Flask REST API serves predictions via the /predict endpoint.
+-**Confidence Scoring:** Displays a "Veracity" score (probability percentage) calculated via       Softmax logic.
+-**Pre-processing Pipeline:** Automated tokenisation, truncation, and padding using BertTokenizer.
+-**Reproducibility:** Model and tokeniser are versioned and saved in saved_model/
 
 ---
 
 ### 🧩 Tech Stack
-**Languages & Frameworks:** Python, Flask, PyTorch, React.js (planned)  
-**Libraries:** Hugging Face Transformers, Torch, Pandas  
-**Tools:** Docker (planned), Git, AWS/Heroku (planned)  
+**Frontend:** React.js, Vite, Axios, CSS3 
+**Backend:** Python, Flask, Flask-CORS
+**AI/ML:** PyTorch, Hugging Face Transformers, Pandas, Scikit-learn
+**Tools:** Git, VS Code
 
----
 
 ### 📂 Project Structure
 AI-Fake-News-Detector/
@@ -45,3 +48,11 @@ AI-Fake-News-Detector/
   ├── src/
   ├── public/
   └── package.json
+
+  ###🔮 Future Roadmap
+---
+  **Multi-Modal Detection:** Analyse news URLs/Links, Images, and Uploaded Documents for   authenticity.
+  **Explainable AI (XAI):** Add an interpretability layer (SHAP/LIME) to highlight why specific text was flagged as fake.
+  **User Feedback Loop:** Allow users to flag incorrect predictions to retrain the model.
+  **Deployment:** Containerization via Docker and cloud hosting on AWS or Heroku.
+
