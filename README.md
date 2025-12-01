@@ -30,8 +30,11 @@ The project combines **NLP**, **Machine Learning**, and **Full-Stack Web Develop
 
 ### 🧩 Tech Stack
 **Frontend:** React.js, Vite, Axios, CSS3 
+
 **Backend:** Python, Flask, Flask-CORS
+
 **AI/ML:** PyTorch, Hugging Face Transformers, Pandas, Scikit-learn
+
 **Tools:** Git, VS Code
 
 
