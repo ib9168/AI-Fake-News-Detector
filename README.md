@@ -41,4 +41,7 @@ AI-Fake-News-Detector/
 │ ├── saved_model/ # Fine-tuned model & tokenizer
 │ └── requirements.txt
 │
-└── fake-news-frontend/ (planned)
+└── frontend/ 
+  ├── src/
+  ├── public/
+  └── package.json
