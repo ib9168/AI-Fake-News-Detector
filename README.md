@@ -4,14 +4,6 @@
 An AI-powered web application that classifies news articles as **FAKE** or **REAL** using a fine-tuned **BERT** transformer model.  
 The project combines **NLP**, **Machine Learning**, and **Full-Stack Web Development** to build a transparent, explainable fake news detection system.
 
----
-### ⚡️Localhost Access
----
-  Once the application is running locally, you can access the services here:
-  
-  Frontend (User Interface): http://localhost:5173
-  
-  Backend (API Status): http://localhost:5000/health
 
 ### 🚀 Features
 -**Fine-tuned BERT Model:** Uses bert-base-uncased for accurate binary text classification.
